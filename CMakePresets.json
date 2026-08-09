@@ -3,14 +3,14 @@
     {
       "binaryDir": "${sourceDir}/vsbuild",
       "toolchainFile": "$env{VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake",
-      "generator": "Visual Studio 17 2022",
-      "name": "vs2022-windows"
+      "generator": "Visual Studio 18 2026",
+      "name": "vs2026-windows"
     }
   ],
   "buildPresets": [
     {
-      "name": "vs2022-windows",
-      "configurePreset": "vs2022-windows"
+      "name": "vs2026-windows",
+      "configurePreset": "vs2026-windows"
     }
   ],
   "version": 4
